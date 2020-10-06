@@ -7,5 +7,11 @@
     "require": {
         "drupal/core": "^8.8 || ^9",
         "drupal/commerce": "^2"
+    },
+    "require-dev": {
+        "mglaman/phpstan-drupal": "^0.12",
+        "phpstan/phpstan-deprecation-rules": "^0.12",
+        "phpstan/phpstan-phpunit": "^0.12",
+        "phpunit/phpunit": "^7"
     }
 }
