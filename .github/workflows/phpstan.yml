@@ -16,6 +16,4 @@ jobs:
           fetch-depth: 1
 
       - name: PHPStan
-        run:
-          - composer install
-          - ./vendor/bin/phpstan analyse .
+        run: composer install && ./vendor/bin/phpstan analyse .
