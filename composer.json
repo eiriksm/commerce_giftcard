@@ -4,6 +4,8 @@
     "description": "Allows to use and buy gift cards.",
     "homepage": "http://drupal.org/project/commerce_giftcard",
     "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "repositories": {
         "drupal": {
             "type": "composer",
